@@ -8,8 +8,8 @@ By leveraging reinforcement learning, we develop agents which successfully learn
 
 The algorithms developed by the authors are:
 
-1. **Deep Deterministic Policy Gradient (Jungi Hong) 
-2. **Soft Actor-Critic (Till Koepff)
+1. **Deep Deterministic Policy Gradient** (Jungi Hong) 
+2. **Soft Actor-Critic** (Till Koepff)
 
 **An extensive report** containing detailed algorithm descriptions, ablation/sensitivity studies on the model's 
 hyperparameters, and tricks that played an important role in helping us win the challenge could be found 
