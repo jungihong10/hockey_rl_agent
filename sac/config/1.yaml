@@ -1,0 +1,30 @@
+# global settings
+HER: True
+enriched_obs: False
+monitor: True
+weak_opponent: True
+
+# SAC constructor
+verbose: 1
+buffer_size: 1e4
+learning_rate: 5e-4
+gamma: 0.99
+batch_size: 8
+net_arch: [128, 128]
+activation_fn: 'ReLU'
+learning_starts: 250
+train_freq: 100
+
+# HER related
+n_sampled_goal: 4
+goal_selection_strategy: 'future'
+
+# LEARNING
+total_timesteps: 2e5
+log_interval: 100
+
+# EVALUATION
+eval_freq: 1000
+n_eval_episodes: 50
+make_gif: True
+plot_win_rate: True
